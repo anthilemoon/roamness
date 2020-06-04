@@ -1,0 +1,188 @@
+/*  Roamness theme for Roam Research by Ness Labs: https://nesslabs.com/roamness-roam-research-theme */
+
+body {
+    background-color: #ffffff;
+}
+
+.roam-topbar {
+    background-color: #121212;
+}
+
+input#find-or-create-input:focus {
+    box-shadow: 0 0 0 1px #16b7b7;
+}
+
+span.bp3-icon-small.bp3-icon-star {
+    display: none;
+    visibility: hidden;
+}
+
+.roam-body .roam-app h1 {
+  color: #121212;
+  font-family: 'Georgia';
+}
+
+div,
+textarea {
+  font-family: 'Georgia';
+  font-size: 16px;
+  color: #121212
+}
+
+.roam-highlight {
+    background-color: #c4edf1;
+    
+}
+
+#right-sidebar > div {
+    background-color: #faffff;
+    border-left: 1px solid #e5e5e5;
+}
+
+.roam-body .roam-app .roam-sidebar-container {
+    background-color: #faffff;
+    border-right: 1px #e5e5e5 solid;
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page,
+.roam-body .roam-app .roam-sidebar-container > * {
+    background-color: #faffff;
+    color: #121212;
+    box-shadow: none;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover,
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover {
+    background-color: #faffff;
+    color: #048a8a;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button {
+  font-size: 16px;
+  color: #121212;
+  
+}
+
+a {
+    color: #16b7b7;
+}
+
+a:hover {
+    color: #048a8a;
+    text-decoration: none;
+}
+
+strong {
+    color: #0a4747;
+}
+
+em {
+    color: #0a4747;
+}
+
+.cm-s-default .cm-keyword {
+    color: #048a8a;
+}
+
+.checkmark {
+    background: #ffffff;
+}
+
+.check-container input:checked ~ .checkmark {
+    background: #16b7b7;
+}
+
+.check-container input:checked ~ .checkmark:after {
+    border-color: #ffffff;
+}
+
+.rm-query {
+    border: 0.5px solid #048a8a;
+    border-radius: 5px;
+}
+
+.rm-query .rm-query-title {
+    background-color: #ffffff;
+    color: #121212;
+}
+
+.rm-reference-main .rm-reference-item .rm-block-text {
+    font-size: 90%;
+}
+
+.rm-ref-page-view-title span {
+    color: #121212;
+    text-decoration: none;
+}
+
+#block-input {
+    background: #ffffff;
+}
+
+.roam-body #block-input > span > div {
+    background: #ffffff;
+}
+
+.controls .simple-bullet-outer .simple-bullet-inner {
+    background-color: #0a4747;
+}
+
+.block-border-left {
+    border-left: 1px solid #ffffff;
+}
+
+.rm-reference-item {
+    margin: 10px 10px 10px 0px;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #e5e5e5;
+    word-break: break-all;
+    background-color: #faffff;
+}
+
+.rm-level3 {
+    color: #121212;
+}
+
+.rm-page-ref {
+    color: #121212;
+}
+
+.rm-page-ref-link-color {
+    color: #16b7b7;
+}
+
+.rm-title-textarea {
+    font-size: 36px;
+}
+
+span.rm-page-ref[data-tag="to read"] {
+    color: #ffffff;
+    background-color:  #16b7b7;
+    border: 1px #ffffff;
+    border-radius: 3px;
+    padding: 3px 6px;
+}
+
+span.rm-page-ref[data-link-title="to process"] {
+    color: #ffffff;
+    background-color:  #16b7b7;
+    border: 1px #ffffff;
+    border-radius: 3px;
+    padding: 3px 6px;
+}
+
+span.rm-page-ref[data-tag="to process"] {
+    color: #ffffff;
+    background-color:  #048a8a;
+    border: 1px #ffffff;
+    border-radius: 3px;
+    padding: 3px 6px;
+}
+
+span.rm-page-ref[data-tag="to write"] {
+    color: #ffffff;
+    background-color:  #0a4747;
+    border: 1px #ffffff;
+    border-radius: 3px;
+    padding: 3px 6px;
+}
